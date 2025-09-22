@@ -67,7 +67,7 @@ ENV PATH="/opt/venv/bin:$PATH"
 WORKDIR /opt/unstructured-api
 
 # ===== ENV defaults (override a runtime) =====
-ENV PORT=8000 \
+ENV PORT=8333 \
     HOST=0.0.0.0 \
     WORKERS=1 \
     UNSTRUCTURED_MEMORY_FREE_MINIMUM_MB=2048 \
@@ -83,7 +83,7 @@ ENV PORT=8000 \
     DO_NOT_TRACK=true
 # ENV UNSTRUCTURED_REDIRECT_ROOT_URL="https://docs.tua-azienda.it/unstructured"
 
-EXPOSE 8000
+EXPOSE 8333
 
 # ===== Avvio =====
 # uso la shell-form per espandere le ENV (PORT/WORKERS) nel comando

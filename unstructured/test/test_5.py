@@ -4,9 +4,6 @@ import json
 from langchain_unstructured import UnstructuredLoader
 
 # ========= CONFIG =========
-API_URL = "http://localhost:8000/"  # endpoint COMPLETO (niente trailing slash)
-API_KEY = "metti-una-chiave-robusta"                  # deve combaciare con UNSTRUCTURED_API_KEY nel container
-FILE_PATH = r"C:\Users\info\Desktop\work_space\repositories\data-loader-toolkit\unstructured\test\data\ui_ux_readme.pdf"
 
 # Modalità post-processing del loader: "elements" | "single" | "paged"
 MODE = "elements"

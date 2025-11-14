@@ -3,9 +3,9 @@ from pathlib import Path
 from langchain_unstructured import UnstructuredLoader
 
 # ====== CONFIG ======
-API_URL = "http://localhost:8000/"
+API_URL = "http://34.13.153.241:8333/" #"http://localhost:8000/"
 API_KEY = "metti-una-chiave-robusta"
-FILE_PATH = r"C:\Users\info\Desktop\work_space\repositories\data-loader-toolkit\unstructured\test\data\ui_ux_readme.pdf"
+FILE_PATH = r"C:\Users\info\Desktop\work_space\repositories\data-loader-toolkit\unstructured\test\data\documentazione_richiesta.pdf"
 
 # Il loader supporta post-processing "elements"/"paged"/"single" via param 'mode'
 MODE = "elements"
